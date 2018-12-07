@@ -43,4 +43,4 @@ Instructions: Download raw_data.csv, all zip files (after unzipping make sure to
 
 Through your command line navigate to the folder you are storing these files. Make sure you have python path in your enviroment variables and run command python flask_predict_api.py
 
-From your browser navigate to your localhost on port 8000. Click on predict_api and then try it out!. Insert raw_unseen_data and press execute. After some time scroll down and click on Download the zip.file, which contains the predictions.
+From your browser navigate to http://localhost:8000/apidocs. Click on predict_api and then try it out!. Insert raw_unseen_data and press execute. After some time scroll down and click on Download the zip.file, which contains the predictions.
