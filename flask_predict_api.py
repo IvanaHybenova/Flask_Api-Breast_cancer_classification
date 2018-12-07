@@ -14,7 +14,7 @@ from io import BytesIO
 
 
 with open('/model/final_model.pkl', 'rb') as model_file:
-     model = pickle.load(model_file)
+    model = pickle.load(model_file)
 
 app = Flask(__name__)
 swagger = Swagger(app)
