@@ -37,7 +37,7 @@ SVM classifier, GB classifier, RF classifier
 
 Measures: Confusion metrics, Area under the ROC
 
-Project delivery: Pipeline that first normalize the data and then apply classifier (% cross validated accuracy)
+Project delivery: Python script executing locally hosted flask api, that takes in raw data, preprocess them, do the predictions and provide downloadable zipped .xlsx file that alongside input dataset provides predictions.
 
 Instructions: Download raw_data.csv, all zip files (after unzipping make sure to have final_model.pkl in separate "model" folder created among the other downloaded files) and flask_predict_api.py.
 
